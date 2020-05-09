@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE data [
 <!ELEMENT data (#ANY)>
-<!ENTITY file SYSTEM "https://enr9dd39iwzn.x.pipedream.net/">
+<!ENTITY file SYSTEM "echo 1">
 ]>
 <data>&file;</data>
