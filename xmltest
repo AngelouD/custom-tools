@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
   <!DOCTYPE foo [  
   <!ELEMENT foo ANY >
-  <!DOCTYPE foo [ <!ENTITY ext SYSTEM "file:///flag.txt" > ]><data>%ext;</data>
+  <!DOCTYPE foo [ <!ENTITY ext SYSTEM "file:///path/to/file" > ]> <data>%ext;</data>
