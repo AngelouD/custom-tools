@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE r [
-<!ELEMENT r ANY >
-<!ENTITY sp SYSTEM "http://www.facebook.com">
-]>
-<r>&sp;</r>
+<!DOCTYPE foo [ <!ENTITY ext SYSTEM "http://normal-website.com" > ]> 
+<r>&ext;</r>
 
