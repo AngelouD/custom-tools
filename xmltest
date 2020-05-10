@@ -1,6 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE data [
-<!ELEMENT data (#ANY)>
-<!ENTITY file SYSTEM "echo 1">
-]>
-<data>&file;</data>
+<!DOCTYPE foo [
+<!ELEMENT foo (#ANY)>
+<!ENTITY % xxe SYSTEM "file:///etc/passwd">
